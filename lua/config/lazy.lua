@@ -23,6 +23,8 @@ require("lazy").setup({
   }
 })
 
+vim.cmd[[colourscheme tokyonight]]
+
 -- Optional: Only required if you need to update the language server settings
 vim.lsp.config('ty', {
   settings = {
