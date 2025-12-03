@@ -13,7 +13,22 @@ if not (vim.uv or vim.loop).fs_stat(lazypath) then
     os.exit(1)
   end
 end
+
 vim.opt.rtp:prepend(lazypath)
+
+vim.g.mapleader = " "
+vim.opt.termguicolors = true
+vim.opt.nu = true
+vim.opt.relativenumber = true
+vim.opt.tabstop = 4
+vim.opt.softtabstop = 4
+vim.opt.shiftwidth = 4
+vim.opt.expandtab = true
+vim.opt.smartindent = true
+vim.opt.wrap = false
+vim.hlsearch = false
+vim.opt.incsearch = true
+vim.opt.scrolloff = 8
 
 -- Setup lazy.nvim
 require("lazy").setup({
