@@ -12,19 +12,3 @@ vim.pack.add({
       }
     }
 })
-
-require("nvim-treesitter.configs").setup({
-  ensure_installed = {
-      "lua",
-      "python",
-      "html",
-      "javascript"
-    },
-    auto_install = false,
-    highlight = {
-      enable = true
-    },
-    indent = {
-      enable = true
-    }
-})
