@@ -1,3 +1,3 @@
 vim.pack.add({"https://github.com/folke/tokyonight.nvim.git"})
 
-vim.cmd("colorscheme tokyonight-storm")
+vim.cmd("colorscheme tokyonight")
