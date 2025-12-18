@@ -1,5 +1,5 @@
 vim.lsp.config("ty", {
-    cmd = { "ty server" },
+    cmd = { "uv", "run", "ty", "server" },
     filetypes = { "python" },
     root_markers = { "pyproject.toml", ".git" }
   })
