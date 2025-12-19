@@ -1,5 +1,5 @@
 return {
-  cmd = { "uv", "run", "ty", "server" },
+  cmd = { "ty", "server" },
   root_markers = { "pyproject.toml", ".git" },
   filetypes = { "python" }
 }
